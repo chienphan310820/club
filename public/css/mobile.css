@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+      padding-left: 1rem;
+    }
+}
+    .section-1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+}
+
+/* @media only screen and (max-width: 600px) {
+  header .card-infomation {
+    background-color: lightblue;
+  }
+} */
