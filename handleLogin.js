@@ -9,6 +9,6 @@ $(document).ready(function () {
             password: $('#password').val()
         }
     })
+    
     console.log(body);
 })
-
