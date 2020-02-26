@@ -17,9 +17,11 @@ server.use(express.urlencoded());
 var isLogin = false;
 
 server.post('/api', function (request, response, next) {
-  if (request.body.user === "admin" && request.body.password === "12345") {
+  if (request.body.username === "admin" && request.body.password === "12345") {
     isLogin = true;
-    response.redirect('http://localhost:3000/success')
+    response.cookie("token","absmcvNNGVmnmc")
+
+    response.redirect('http://localhost:3000')
   } else {
     response.redirect('http://localhost:3000/login')
   }

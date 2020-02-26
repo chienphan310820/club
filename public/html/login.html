@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<link rel="stylesheet" href="../css/destop.css">
-<title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="../css/destop.css">
+  <title>Login</title>
 </head>
+
 <body>
 
-    <div class="login container py-10">
-      <!-- <i class="fas fa-long-arrow-alt-left"></i> -->
+  <div class="login container py-10">
+    <!-- <i class="fas fa-long-arrow-alt-left"></i> -->
 
-        <button type="button" class="fas fa-long-arrow-alt-left"><a href= './'>Back</a></button>
-        <form action="http://localhost:3000/api" method="POST">
-          <div class="wrapper">
-            <form class="form-signin">       
-              <h2 class="form-signin-heading">Please login</h2>
-              <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
-              <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
-              <label class="checkbox">
-                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
-              </label>
-              <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
-            </form>
-          </div>
-          </form>
+    <button type="button" class="fas fa-long-arrow-alt-left"><a href='./'>Back</a></button>
+    <form action="/api" method="POST">
+      <div class="wrapper">
+        <form class="form-signin">
+          <h2 class="form-signin-heading">Please login</h2>
+          <input type="text" class="form-control" name="username" placeholder="Email Address" required=""
+            autofocus="" />
+          <input type="password" class="form-control" name="password" placeholder="Password" required="" />
+          <label class="checkbox">
+            <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+          </label>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+        </form>
       </div>
-      
-      
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </form>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
