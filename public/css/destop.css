@@ -24,7 +24,10 @@
     margin-top: 100px;
     background-color: red;
 } */
-
+.body{
+  margin:0px ;
+  padding: 0px ;
+}
 * {
   box-sizing: border-box;
 }
@@ -135,7 +138,7 @@ header .container .col-md-7 p {
 /********** section 1 **************/
 
 
-.addmember img{
+.addmember img {
   width: 100%;
   padding-top: 20px;
 }
@@ -153,11 +156,13 @@ header .container .col-md-7 p {
 .banner {
   position: absolute;
   z-index: 2;
-  
+
 }
-.color-banner{
+
+.color-banner {
   background-color: rgba(36, 33, 33, 0.5);
 }
+
 .portfolio {
   position: relative;
 }
@@ -173,7 +178,7 @@ header .container .col-md-7 p {
 }
 
 .navbar-nav .portfolio-title:hover {
-  color: red!important;
+  color: red !important;
 }
 
 .portfolio .portfolio-hover:hover {
@@ -195,18 +200,18 @@ header .container .col-md-7 p {
 }
 
 
-  /* .container-card{
+/* .container-card{
     font-family: Open Arial, Helvetica, sans-serif;
   } */
 
-  /* .content-container{
+/* .content-container{
     min-height: 510px;
     background: url(../img/3002634.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   } */
-  /* Contact */
+/* Contact */
 
 .section-contact {
   background: url(../img/25060.jpg);
@@ -215,14 +220,80 @@ header .container .col-md-7 p {
   min-height: 510px;
 }
 
-@media only screen and( max-with:960){
-  .introduction{
-    
-  }
+@media only screen and(max-with:960) {
+  .introduction {}
 }
 
-@media only screen and( max-with:720px){
-  .introduction{
-
-  }
+@media only screen and(max-with:720px) {
+  .introduction {}
 }
+
+/* 
+.board{
+  margin-left:50px ;
+  margin-top: 50px;
+}
+.board .title{
+  font-size: 30px;
+
+}
+.chienphan{
+  margin-left: 110px;
+  margin-top: 20px;
+  display: flex;
+}
+.chienphan .image{
+  height: 250px;
+  width: 250px;
+  margin-right: 100px;
+}
+.chienphan .image img{
+  width: 100%;
+  height: 100%;
+} */
+.whycho{
+  margin-left: 40px;
+}
+.us{
+  margin: 0px;
+  display: flex;
+}
+.us .icon{
+  width: 65px;
+  height: 65px;
+
+}
+
+.us .title{
+ margin-left: 30px;
+
+}
+.us .title .title-content{
+  opacity: 1;
+  font-family: 'Open Sans';
+  color: rgba(66,66,66,1);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 24px;
+  margin-bottom: 5px;
+  min-width: 76px;
+}
+.us .title .title-txt{
+  opacity: 1;
+  font-family: 'Open Sans',sans-serif;
+  text-rendering: optimizeLegibility;
+  color: rgba(117,117,117,1);
+  line-height: 20px;
+  margin-bottom: 30px;
+  min-width: 76px;
+}
+/* .abus{
+  width: 458px;
+  height: 199px;
+}
+.abus img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
